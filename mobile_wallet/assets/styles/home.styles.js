@@ -27,6 +27,55 @@ export const styles = StyleSheet.create({
   headerLogo: {
     width: 75,
     height: 75,
+    balanceCardModern: {
+      borderRadius: 24,
+      padding: 24,
+      margin: 16,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.2,
+      shadowRadius: 8,
+      elevation: 8,
+    },
+    balanceTitleModern: {
+      fontSize: 22,
+      fontWeight: 'bold',
+      color: '#fff',
+      marginBottom: 8,
+      letterSpacing: 1,
+    },
+    balanceAmountModern: {
+      fontSize: 36,
+      fontWeight: 'bold',
+      color: '#fff',
+      marginBottom: 16,
+    },
+    balanceStatsModern: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      marginTop: 8,
+    },
+    balanceStatItemModern: {
+      alignItems: 'center',
+      flex: 1,
+    },
+    balanceStatLabelModern: {
+      fontSize: 16,
+      color: '#e0e0e0',
+      marginBottom: 4,
+    },
+    balanceStatAmountModern: {
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: '#fff',
+    },
+    statDividerModern: {
+      width: 1,
+      backgroundColor: 'rgba(255,255,255,0.3)',
+      marginHorizontal: 12,
+      height: '80%',
+    },
   },
   welcomeContainer: {
     flex: 1,

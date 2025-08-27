@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+android/app/build/
+ios/build/
+
+# Expo/React Native
+.expo/
+.expo-shared/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
