@@ -1,7 +1,6 @@
 # React Native Wallet
 
 A simple and modern wallet app built with React Native (Expo) and Node.js backend. Track your income, expenses, and balance with a clean UI and real-time updates.
-![Uploading Screenshot_1756320245.png…]()
 ## Features
 - User authentication (Clerk)
 - Add, view, and delete transactions
